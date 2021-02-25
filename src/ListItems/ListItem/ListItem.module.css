@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.OuterListItem {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  width: 60vw;
+}
+
+.ListItem {
+  padding: 10px;
+  font-size: 22px;
+  color: white;
+  border: 2px solid rgba(228, 140, 58, 0.671);
+  background-color: rgba(228, 140, 58, 0.671);
+  width: 60vw;
+  overflow: auto;
+}
+
+.Icon {
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(228, 140, 58, 0.671);
+}

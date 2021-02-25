@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.Typebar {
+  border: 1px solid white;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  color: white;
+  width: 60vw;
+}
+.Input {
+  overflow: hidden;
+  width: 60vw;
+  padding: 10px;
+  font-size: 22px;
+  color: white;
+  border: 2px solid rgba(228, 140, 58, 0.671);
+  background-color: rgba(228, 140, 58, 0.671);
+}
+.Icon {
+  /* padding: 10px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(228, 140, 58, 0.671);
+}
